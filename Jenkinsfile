@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                git branch: 'dev', url: 'https://github.com/Yamin2810/simple-apps.git'
+                git branch: 'main', url: 'https://github.com/Yamin2810/simple-apps.git'
 
             }
         }
