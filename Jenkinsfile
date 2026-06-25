@@ -50,7 +50,7 @@ pipeline {
                  sonar-scanner \
                  -Dsonar.projectKey=Test-Apps \
                  -Dsonar.sources=. \
-                 -Dsonar.host.url=http://172.23.0.117:9000 \
+                 -Dsonar.host.url=http://172.23.0.112:9000 \
                  -Dsonar.login=sqp_453c0e4301afd70ecdf1719a4e66bd5e2ceb78c6'''
              }
          }
